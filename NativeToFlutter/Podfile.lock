@@ -1,0 +1,45 @@
+PODS:
+  - Flutter (1.0.0)
+  - FlutterPluginRegistrant (0.0.1):
+    - Flutter
+  - my_flutter (0.0.1):
+    - Flutter
+  - RxCocoa (5.0.0):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.0.0):
+    - RxSwift (~> 5)
+  - RxSwift (5.0.0)
+
+DEPENDENCIES:
+  - Flutter (from `../my_flutter/.ios/Flutter/engine`)
+  - FlutterPluginRegistrant (from `../my_flutter/.ios/Flutter/FlutterPluginRegistrant`)
+  - my_flutter (from `../my_flutter/.ios/Flutter`)
+  - RxCocoa (~> 5)
+  - RxSwift (~> 5)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: "../my_flutter/.ios/Flutter/engine"
+  FlutterPluginRegistrant:
+    :path: "../my_flutter/.ios/Flutter/FlutterPluginRegistrant"
+  my_flutter:
+    :path: "../my_flutter/.ios/Flutter"
+
+SPEC CHECKSUMS:
+  Flutter: 93fdab773cde727b7cef0c53a7aad246b70c2587
+  FlutterPluginRegistrant: 4c0b13ad4054e1b568c31c51cc95aee917e73920
+  my_flutter: aafacbf8dda422f997d4718a590bf9b66a71cb64
+  RxCocoa: fcf32050ac00d801f34a7f71d5e8e7f23026dcd8
+  RxRelay: 4f7409406a51a55cd88483f21ed898c234d60f18
+  RxSwift: 8b0671caa829a763bbce7271095859121cbd895f
+
+PODFILE CHECKSUM: 0373ef03e967c7965b3e30726a8ce5978133050e
+
+COCOAPODS: 1.5.3

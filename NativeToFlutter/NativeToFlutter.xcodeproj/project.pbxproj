@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E27CD3A92320EC3400393AC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27CD3A82320EC3400393AC2 /* AppDelegate.swift */; };
+		E27CD3AB2320EC3400393AC2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27CD3AA2320EC3400393AC2 /* ViewController.swift */; };
+		E27CD3AE2320EC3400393AC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E27CD3AC2320EC3400393AC2 /* Main.storyboard */; };
+		E27CD3B02320EC3500393AC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E27CD3AF2320EC3500393AC2 /* Assets.xcassets */; };
+		E27CD3B32320EC3500393AC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E27CD3B12320EC3500393AC2 /* LaunchScreen.storyboard */; };
+		E5F46E76687041592042C3DE /* Pods_NativeToFlutter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF572A3D80CEE9328273071C /* Pods_NativeToFlutter.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		601340C79CF0BDB33FAC378A /* Pods-NativeToFlutter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeToFlutter.release.xcconfig"; path = "Pods/Target Support Files/Pods-NativeToFlutter/Pods-NativeToFlutter.release.xcconfig"; sourceTree = "<group>"; };
+		AD843A0D5C759368590FD58B /* Pods-NativeToFlutter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeToFlutter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NativeToFlutter/Pods-NativeToFlutter.debug.xcconfig"; sourceTree = "<group>"; };
+		DF572A3D80CEE9328273071C /* Pods_NativeToFlutter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NativeToFlutter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E27CD3A52320EC3400393AC2 /* NativeToFlutter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NativeToFlutter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E27CD3A82320EC3400393AC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E27CD3AA2320EC3400393AC2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E27CD3AD2320EC3400393AC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E27CD3AF2320EC3500393AC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E27CD3B22320EC3500393AC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E27CD3B42320EC3500393AC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E27CD3A22320EC3400393AC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5F46E76687041592042C3DE /* Pods_NativeToFlutter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A161E881C2539527ADEAEAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF572A3D80CEE9328273071C /* Pods_NativeToFlutter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AECF581B195D9856D30B4215 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD843A0D5C759368590FD58B /* Pods-NativeToFlutter.debug.xcconfig */,
+				601340C79CF0BDB33FAC378A /* Pods-NativeToFlutter.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E27CD39C2320EC3300393AC2 = {
+			isa = PBXGroup;
+			children = (
+				E27CD3A72320EC3400393AC2 /* NativeToFlutter */,
+				E27CD3A62320EC3400393AC2 /* Products */,
+				AECF581B195D9856D30B4215 /* Pods */,
+				8A161E881C2539527ADEAEAD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E27CD3A62320EC3400393AC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E27CD3A52320EC3400393AC2 /* NativeToFlutter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E27CD3A72320EC3400393AC2 /* NativeToFlutter */ = {
+			isa = PBXGroup;
+			children = (
+				E27CD3A82320EC3400393AC2 /* AppDelegate.swift */,
+				E27CD3AA2320EC3400393AC2 /* ViewController.swift */,
+				E27CD3AC2320EC3400393AC2 /* Main.storyboard */,
+				E27CD3AF2320EC3500393AC2 /* Assets.xcassets */,
+				E27CD3B12320EC3500393AC2 /* LaunchScreen.storyboard */,
+				E27CD3B42320EC3500393AC2 /* Info.plist */,
+			);
+			path = NativeToFlutter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E27CD3A42320EC3400393AC2 /* NativeToFlutter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E27CD3B72320EC3500393AC2 /* Build configuration list for PBXNativeTarget "NativeToFlutter" */;
+			buildPhases = (
+				CADCBCB4983FC5B2BB90E80C /* [CP] Check Pods Manifest.lock */,
+				64204A4242DE98CBE5D68E74 /* [CP-User] Run Flutter Build Script */,
+				E27CD3A12320EC3400393AC2 /* Sources */,
+				E27CD3A22320EC3400393AC2 /* Frameworks */,
+				E27CD3A32320EC3400393AC2 /* Resources */,
+				64C583EDDF1247861F5960A6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NativeToFlutter;
+			productName = NativeToFlutter;
+			productReference = E27CD3A52320EC3400393AC2 /* NativeToFlutter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E27CD39D2320EC3300393AC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = LeoShu;
+				TargetAttributes = {
+					E27CD3A42320EC3400393AC2 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = E27CD3A02320EC3300393AC2 /* Build configuration list for PBXProject "NativeToFlutter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E27CD39C2320EC3300393AC2;
+			productRefGroup = E27CD3A62320EC3400393AC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E27CD3A42320EC3400393AC2 /* NativeToFlutter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E27CD3A32320EC3400393AC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E27CD3B32320EC3500393AC2 /* LaunchScreen.storyboard in Resources */,
+				E27CD3B02320EC3500393AC2 /* Assets.xcassets in Resources */,
+				E27CD3AE2320EC3400393AC2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		64204A4242DE98CBE5D68E74 /* [CP-User] Run Flutter Build Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/../my_flutter/.metadata",
+				"${SRCROOT}/../my_flutter/.ios/Flutter/App.framework/App",
+				"${SRCROOT}/../my_flutter/.ios/Flutter/engine/Flutter.framework/Flutter",
+				"${SRCROOT}/../my_flutter/.ios/Flutter/flutter_export_environment.sh",
+			);
+			name = "[CP-User] Run Flutter Build Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/../my_flutter/.ios/Flutter/flutter_export_environment.sh\"\n\"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh build";
+			showEnvVarsInLog = 0;
+		};
+		64C583EDDF1247861F5960A6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NativeToFlutter/Pods-NativeToFlutter-frameworks.sh",
+				"${PODS_ROOT}/../../my_flutter/.ios/Flutter/engine/Flutter.framework",
+				"${BUILT_PRODUCTS_DIR}/FlutterPluginRegistrant/FlutterPluginRegistrant.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${PODS_ROOT}/../../my_flutter/.ios/Flutter/App.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Flutter.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FlutterPluginRegistrant.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/App.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NativeToFlutter/Pods-NativeToFlutter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CADCBCB4983FC5B2BB90E80C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NativeToFlutter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E27CD3A12320EC3400393AC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E27CD3AB2320EC3400393AC2 /* ViewController.swift in Sources */,
+				E27CD3A92320EC3400393AC2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E27CD3AC2320EC3400393AC2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E27CD3AD2320EC3400393AC2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E27CD3B12320EC3500393AC2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E27CD3B22320EC3500393AC2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E27CD3B52320EC3500393AC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E27CD3B62320EC3500393AC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E27CD3B82320EC3500393AC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD843A0D5C759368590FD58B /* Pods-NativeToFlutter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2SPNSVSFU2;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = NativeToFlutter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leo.NativeToFlutter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E27CD3B92320EC3500393AC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 601340C79CF0BDB33FAC378A /* Pods-NativeToFlutter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2SPNSVSFU2;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = NativeToFlutter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leo.NativeToFlutter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E27CD3A02320EC3300393AC2 /* Build configuration list for PBXProject "NativeToFlutter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E27CD3B52320EC3500393AC2 /* Debug */,
+				E27CD3B62320EC3500393AC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E27CD3B72320EC3500393AC2 /* Build configuration list for PBXNativeTarget "NativeToFlutter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E27CD3B82320EC3500393AC2 /* Debug */,
+				E27CD3B92320EC3500393AC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E27CD39D2320EC3300393AC2 /* Project object */;
+}
